@@ -124,6 +124,7 @@ img {
   font-size: 55px;
   font-weight: 400;
   margin-right: 64px;
+  white-space: nowrap;
 }
 .favorites-icon {
   margin-right: 7px;
@@ -142,6 +143,8 @@ img {
   padding: 22px 70px;
   border-radius: 5px;
   border: 2px solid transparent;
+  display: inline-block;
+  white-space: nowrap;
 }
 .button-primary {
   background-color: #f89c02;
